@@ -1,0 +1,40 @@
+button
+{
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 10px;
+	border-color: #none;
+}
+
+/*the anchor (a)ensuring that their is
+no underlined text*/
+a
+{
+	text-decoration: none;
+}
+
+/* the anchor (a) and the button are to allow the
+webpage to be more reactive when the user interact
+with the navigation buttons such as
+changing the colour*/ 
+button:link
+{
+	background-color: #none;
+}
+
+button:visited
+{
+	background-color: #0000ff;
+}
+
+button:hover
+{
+	background-color: #ff0000;
+}
+
+button:active
+{
+	background-color: #00ff00;
+}
