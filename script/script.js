@@ -6,5 +6,5 @@ function Para_Func()
 
 function Para_Func2()
 {
-    document.getElementById("third year").innerHTML = "hello world"
+    document.getElementById("third year").innerHTML = "hello third years"
 }
