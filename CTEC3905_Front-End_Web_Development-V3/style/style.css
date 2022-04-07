@@ -1,0 +1,120 @@
+*
+{
+	box-sizing: border-box;
+}
+
+header 
+{
+	background-color: #44DCD9;
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+nav 
+{
+	background-color: #E8E1EE;
+	height: 60px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+
+section
+{
+	background-color: #fa8989;
+	height: 400px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+/* the code below for article will control the divtags found in article to be displaye in a flexgrid */
+article 
+{
+	display: grid;
+	column-gap: 2%;
+	grid-template-columns:	32% 32%	32%;
+	background-color: #44DCD9;
+	padding: 10px;
+	border-radius: 20px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+/* the box below control all veriables for all
+article div tags*/
+
+#_box_01, #_box_02, #_box_03
+{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+aside 
+{
+	background-color: #EA2E06;
+	height: 200px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+footer 
+{
+	background-color: #9E8C88;
+	height: 75;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+/* for control of the webpagewhen viewed on smaller
+displays such as phones or tablets*/
+
+@media (max-width: 600px)
+{
+	nav
+	{
+		Width: 100%;
+		height: auto;
+	}
+	
+	
+	article
+	{
+		Width: 100%;
+		height: 620px;
+	}
+	
+	#_box_01, #_box_02, #_box_03
+	{
+		Width: 100%;
+		height: 200px;
+	}
+	
+	#_box_02, #_box_03
+	{
+		margin-top: 10px;
+	}
+	
+	#_box_03
+	{
+		margin-bottom: 10px;
+	}
+	
+	aside, footer
+	{
+		Width: 100%;
+		height: auto;
+	}
+	
+	
+}
